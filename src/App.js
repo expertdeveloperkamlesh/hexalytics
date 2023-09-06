@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import BarCharts from './Components/BarCharts'
+// import TreeMap from "./Components/TreeMap"
+import LineChart from "./Components/Linechart"
+import DonutChart from "./Components/DonutChart"
+import PieChart from "./Components/PieChart"
+import Main from "./Components/Main"
+import Nav from "./Components/Navbar"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <BarCharts/> */}
+      {/* <TreeMap/> */}
+      {/* <LineChart /> */}
+      {/* <DonutChart /> */}
+      {/* <PieChart /> */}
+      <Nav/>
+      <Main/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
