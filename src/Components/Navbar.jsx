@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div>
       <div>
-        <div className="max-sm:flex-col lg:w-full h-16 flex bg-slate-900 justify-between ">
+        <div className="max-sm:flex-col lg:w-full h-16 flex bg-slate-900 justify-between fixed z-20 top-0">
           <div className="flex">
             <div className="w-16 bg-white">
               <img src={Leaves} />
