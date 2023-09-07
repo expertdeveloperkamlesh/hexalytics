@@ -47,7 +47,7 @@ function Main() {
               <div className="flex flex-wrap gap-2 place-content-center">
                 {data.map((item) => {
                   return (
-                    <div className="w-40 h-18 bg-slate-600 rounded-lg ">
+                    <div className="w-40 h-18 bg-slate-600 rounded-lg pt-1 ">
                       <div className=" ms-1 text-xs text-white">
                         <p>{item.title}</p>
                         <p>{item.total}</p>
@@ -56,7 +56,7 @@ function Main() {
                         <div>
                           <p>{item.price}</p>
                         </div>
-                        <div className="flex">
+                        <div className="flex pb-1">
                           <img className="w-4 h-4" src={Uparrow} />
                           <p>{item.percentage}</p>
                         </div>
