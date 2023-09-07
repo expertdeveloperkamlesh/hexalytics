@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Leaves from "../Assets/leaves.png";
 import Search from "../Assets/search.png";
 import Notes from "../Assets/notes.png";
@@ -10,8 +10,8 @@ import Arrow from "../Assets/arrow.png";
 function Navbar() {
   return (
     <div>
-        <div>
-        <div className="max-sm:flex-col lg:w-full h-16 flex bg-slate-900 justify-between ">
+      <div>
+        <div className="max-sm:flex-col lg:w-full h-16 flex bg-slate-900 justify-between fixed z-20 top-0">
           <div className="flex">
             <div className="w-16 bg-white">
               <img src={Leaves} />
@@ -28,9 +28,9 @@ function Navbar() {
               <div className="self-center">
                 <img className="w-6 h-6 ms-2" src={Search} />
               </div>
-              <div className=" w-64 h-10 self-center">
+              <div className="w-64 h-9 self-center">
                 <input
-                  className="outline-none border-none  pt-2 text-white bg-gray-800"
+                  className="outline-none border-none  pt-1 text-white bg-gray-800 items-center"
                   placeholder="Search"
                 />
               </div>
@@ -63,7 +63,7 @@ function Navbar() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

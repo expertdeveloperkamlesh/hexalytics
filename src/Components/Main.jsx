@@ -1,7 +1,10 @@
 import React from "react";
-import BarChart from "./BarCharts";
-import LineChart from "./Linechart";
-import DonutChart from "./DonutChart";
+import BarChart from "../Charts/BarCharts";
+import LineChart from "../Charts/Linechart";
+import VerticlaLineChart from "../Charts/VerticalLineChart";
+import PieChart from "../Charts/PieChart";
+import DonutChart from "../Charts/DonutChart";
+import TreeMap from "../Charts/TreeMap";
 import Africa from "../Assets/africa.jpeg";
 import Uparrow from "../Assets/up-arrow.png";
 import Notes from "../Assets/notes.png";
@@ -11,18 +14,18 @@ function Main() {
       <div>
         <div className=" w-full h-12 bg-slate-800">
           <div className="flex">
-            <button className="text-white text-lg h-14 w-44 bg-green-700 rounded-b-md z-10">
+            <button className="text-white max-sm:text-sm text-lg w-auto h-auto px-7 bg-green-700 rounded-b-md z-10">
               Summary View
             </button>
-            <button className="text-white text-lg h-14 w-44 bg-slate-600 rounded-b-md z-10">
+            <button className="text-white max-sm:text-sm text-lg w-auto h-auto px-7 bg-slate-600 rounded-b-md z-10">
               Detailed View
             </button>
-            <button className="text-white text-lg h-14 w-44 bg-slate-600 rounded-b-md z-10">
+            <button className="text-white max-sm:text-sm text-lg w-auto h-auto p-4 bg-slate-600 rounded-b-md z-10">
               Drilldown Analysis
             </button>
           </div>
         </div>
-        <div className="section1 grid grid-cols-2 max-sm:flex max-sm:flex-col">
+        <div className="section1 grid grid-cols-1 lg:grid-cols-2 max-sm:flex max-sm:flex-col">
           <div className="bg-[length:200px_100px]">
             <img className="rounded-lg" src={Africa} />
           </div>
@@ -44,12 +47,12 @@ function Main() {
               <div className="flex flex-wrap gap-2 place-content-center">
                 {data.map((item) => {
                   return (
-                    <div className="w-44 h-16 bg-slate-600 rounded-lg ">
-                      <div className=" text-xs text-white">
+                    <div className="w-40 h-18 bg-slate-600 rounded-lg ">
+                      <div className=" ms-1 text-xs text-white">
                         <p>{item.title}</p>
                         <p>{item.total}</p>
                       </div>
-                      <div className="flex gap-2 text-xs text-white">
+                      <div className=" ms-1 flex gap-2 text-xs text-white">
                         <div>
                           <p>{item.price}</p>
                         </div>
@@ -66,20 +69,57 @@ function Main() {
             <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
               Cluster Professional Service and Software
             </h1>
-            <BarChart />
+            <div className=" h-3/5">
+              <BarChart />
+            </div>
           </div>
         </div>
       </div>
-      <div className="section2 grid grid-cols-2">
-        <div
-        className="w-full h-full p-4 m-4 border-2 border-solid border-white rounded-lg"
-        >
-          <LineChart/>
+      <div className="section2 grid grid-cols-1 lg:grid-cols-2">
+        <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
+          <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
+            Software Brands by Ageing - Quarterly
+          </h1>
+          <div className="h-96 mt-4">
+            <TreeMap />
+          </div>
         </div>
-        <div
-        className="w-full h-full p-4 border-2 border-solid border-white rounded-lg"
-        >
-          <DonutChart/>
+        <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
+          <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
+            Accounts Receivables - In US $
+          </h1>
+          <button className="w-auto h-auto p-3 self-center my-4 rounded-md bg-slate-600 text-white text-lg gap-1">
+            Grand Total $232K
+          </button>
+          <div className="h-96">
+            <LineChart />
+          </div>
+        </div>
+      </div>
+      <div className="section3 grid grid-cols-1 lg:grid-cols-3">
+        <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
+          <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
+            Professional Services vs Software - Quarterl 2023
+          </h1>
+          <div className="h-96">
+            <DonutChart />
+          </div>
+        </div>
+        <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
+          <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
+            Business Unit Wise Ageing
+          </h1>
+          <div className="h-96">
+            <PieChart />
+          </div>
+        </div>
+        <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
+          <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
+            Top Cluster - Software
+          </h1>
+          <div className="h-96">
+            <VerticlaLineChart />
+          </div>
         </div>
       </div>
     </div>
