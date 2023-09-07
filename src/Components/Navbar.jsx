@@ -35,10 +35,14 @@ function Navbar() {
                 />
               </div>
             </div>
-            <button className="w-auto h-auto p-1 self-center text-center flex ms-5 rounded-md bg-slate-500 text-white text-lg gap-1">
-              <img className="w-6 h-6 ms-2 self-center" src={Notes} />
+            <div
+            className="self-center ms-3"
+            >
+            <button className="w-auto h-auto max-sm:text-sm px-4 py-1 text-center flex rounded-md bg-slate-500 text-white text-lg gap-1">
+              <img className="w-6 h-6 self-center" src={Notes} />
               Notes
             </button>
+            </div>
             <div className="w-28 h-8 self-center ms-6">
               <div className="flex">
                 <img className="w-6 h-6 ms-2" src={Book} />

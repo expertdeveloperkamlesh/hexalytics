@@ -31,11 +31,11 @@ function Main() {
           </div>
           <div>
             <div className="flex mt-4">
-              <button className="w-auto h-auto p-1 self-center flex ms-5 rounded-md bg-slate-600 text-white text-lg gap-1">
+              <button className="w-auto h-auto p-2 max-sm:text-sm text-center flex ms-5 rounded-md bg-slate-600 text-white text-lg gap-1">
                 <img className="w-6 h-6 ms-2 self-center" src={Notes} />
                 Show Applied Filter
               </button>
-              <button className="w-auto h-auto p-1 self-center text-center flex ms-5 rounded-md bg-slate-500 text-white text-lg gap-1">
+              <button className="w-auto h-auto p-2 max-sm:text-sm text-center flex ms-5 rounded-md bg-slate-500 text-white text-lg gap-1">
                 <img className="w-6 h-6 ms-2 self-center" src={Notes} />
                 Timeline Filter
               </button>
