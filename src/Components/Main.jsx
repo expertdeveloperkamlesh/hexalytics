@@ -66,6 +66,9 @@ function Main() {
                 })}
               </div>
             </div>
+
+            {/* BarChart Area */}
+
             <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
               Cluster Professional Service and Software
             </h1>
@@ -76,6 +79,7 @@ function Main() {
         </div>
       </div>
       <div className="section2 grid grid-cols-1 lg:grid-cols-2">
+        {/* TreeMap Area */}
         <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
           <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
             Software Brands by Ageing - Quarterly
@@ -84,6 +88,7 @@ function Main() {
             <TreeMap />
           </div>
         </div>
+        {/* LineChart Area */}
         <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
           <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
             Accounts Receivables - In US $
@@ -97,6 +102,7 @@ function Main() {
         </div>
       </div>
       <div className="section3 grid grid-cols-1 lg:grid-cols-3">
+        {/* DonutChart Area */}
         <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
           <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
             Professional Services vs Software - Quarterl 2023
@@ -105,6 +111,7 @@ function Main() {
             <DonutChart />
           </div>
         </div>
+        {/* PieChart Area */}
         <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
           <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
             Business Unit Wise Ageing
@@ -114,6 +121,7 @@ function Main() {
           </div>
         </div>
         <div className="p-4 m-4 border-2 border-solid border-slate-700 rounded-lg">
+          {/* VerticalLineChart Area */}
           <h1 className="text-white text-xl font-semibold w-auto h-auto p-2 mt-4">
             Top Cluster - Software
           </h1>

@@ -4,9 +4,14 @@
 /* *{
   border: 1px solid red;
 } */
-.section1,.section2,.section3{
+.section1{
   background-color: rgb(15, 16, 19);
 }
+/* 24,31,25 */
+.section2,.section3{
+  background-color: rgb(24, 31, 25);
+}
+
 .barchart{
   color: white !important;
 }
