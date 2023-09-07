@@ -1,9 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
+/* *{
   border: 1px solid red;
-}
+} */
 .section1,.section2,.section3{
   background-color: rgb(15, 16, 19);
 }
