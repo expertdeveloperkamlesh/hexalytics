@@ -6,14 +6,10 @@ import DonutChart from "./Charts/DonutChart"
 import PieChart from "./Charts/PieChart"
 import Main from "./Components/Main"
 import Nav from "./Components/Navbar"
+import SideBar from "./Components/SideBar"
 function App() {
   return (
     <div>
-      {/* <BarCharts/> */}
-      {/* <TreeMap/> */}
-      {/* <LineChart /> */}
-      {/* <DonutChart /> */}
-      {/* <PieChart /> */}
       <Nav/>
       <Main/>
     </div>

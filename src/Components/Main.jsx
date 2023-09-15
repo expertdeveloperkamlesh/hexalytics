@@ -26,7 +26,7 @@ function Main() {
           </div>
         </div>
         <div className="section1 grid grid-cols-1 lg:grid-cols-2 max-sm:flex max-sm:flex-col">
-          <div className="bg-[length:200px_100px]">
+          <div>
             <img className="rounded-lg" src={Africa} />
           </div>
           <div>
@@ -136,7 +136,8 @@ function Main() {
 
 export default Main;
 
-const data = [
+
+export const data = [
   {
     id: 1,
     title: "Cluster - Professional Service",

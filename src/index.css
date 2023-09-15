@@ -11,7 +11,9 @@
 .section2,.section3{
   background-color: rgb(24, 31, 25);
 }
-
+.sidebar{
+  background-color: rgb(24, 26, 32);
+}
 .barchart{
   color: white !important;
 }
