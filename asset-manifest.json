@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hexalytics/static/css/main.83ba64d4.css",
+    "main.js": "/hexalytics/static/js/main.054d196f.js",
+    "static/js/787.7eeb2635.chunk.js": "/hexalytics/static/js/787.7eeb2635.chunk.js",
+    "static/media/africa.jpeg": "/hexalytics/static/media/africa.eb348706b65a6c3952e2.jpeg",
+    "static/media/boy.png": "/hexalytics/static/media/boy.619cf86e26e47fc63bd8.png",
+    "static/media/leaves.png": "/hexalytics/static/media/leaves.3fab838ffd5bf8e7ed4f.png",
+    "static/media/up-arrow.png": "/hexalytics/static/media/up-arrow.87983e0aea62b1a9ec74.png",
+    "static/media/circle.png": "/hexalytics/static/media/circle.ef35c389a4b04724748a.png",
+    "static/media/notes.png": "/hexalytics/static/media/notes.fb1a920c3ed30a2becab.png",
+    "static/media/search.png": "/hexalytics/static/media/search.4885d3bcde1cf7f833d4.png",
+    "static/media/man.png": "/hexalytics/static/media/man.5655c860aa51fe4c6694.png",
+    "static/media/book.png": "/hexalytics/static/media/book.222593c82f5a4ec22290.png",
+    "index.html": "/hexalytics/index.html",
+    "main.83ba64d4.css.map": "/hexalytics/static/css/main.83ba64d4.css.map",
+    "main.054d196f.js.map": "/hexalytics/static/js/main.054d196f.js.map",
+    "787.7eeb2635.chunk.js.map": "/hexalytics/static/js/787.7eeb2635.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ba64d4.css",
+    "static/js/main.054d196f.js"
+  ]
+}
